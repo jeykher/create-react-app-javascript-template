@@ -1,1 +1,1 @@
-# Project Name
+# Create React App JavaScript Template
