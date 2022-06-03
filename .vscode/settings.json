@@ -30,7 +30,8 @@
 		"Snippets": "mjml",
 		"Setney": "admin",
 		"Personal": "core",
-		"Emoticons": "svg"
+		"Emoticons": "svg",
+		"storybook-static": "storybook"
 	},
     "material-icon-theme.files.associations": {
 		"Vscode":  "vscode",
