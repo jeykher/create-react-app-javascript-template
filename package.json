@@ -1,0 +1,69 @@
+{
+    "name": "cra-javascript-standart",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "react-scripts start",
+        "craco:start": "craco start",
+        "start:windowshttps": "set HTTPS=true&&npm start",
+        "start:linuxmac": "HTTPS=true npm start",
+        "compile": "react-scripts",
+        "craco:build": "craco build",
+        "build": "npm-run-all clean craco:build analyze",
+        "test": "react-scripts test",
+        "craco:test": "craco test",
+        "eject": "react-scripts eject",
+        "analyze": "source-map-explorer 'build/static/js/*.js'",
+        "clean": "rimraf build && rimraf *.log",
+        "clean:dependencies": "rimraf ./node_modules",
+        "git:pushAllBat": "cd scripts/windows && gitPushAll.bat"
+    },
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.1",
+        "@testing-library/react": "^13.0.0",
+        "@testing-library/user-event": "^13.5.0",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-scripts": "5.0.1",
+        "sass": "^1.52.1",
+        "web-vitals": "^2.1.4",
+        "webpack-bundle-analyzer": "^4.5.0",
+        "workbox-background-sync": "^6.4.2",
+        "workbox-broadcast-update": "^6.4.2",
+        "workbox-cacheable-response": "^6.4.2",
+        "workbox-core": "^6.4.2",
+        "workbox-expiration": "^6.4.2",
+        "workbox-google-analytics": "^6.4.2",
+        "workbox-navigation-preload": "^6.4.2",
+        "workbox-precaching": "^6.4.2",
+        "workbox-range-requests": "^6.4.2",
+        "workbox-routing": "^6.4.2",
+        "workbox-strategies": "^6.4.2",
+        "workbox-streams": "^6.4.2"
+    },
+    "devDependencies": {
+        "@craco/craco": "^6.4.3",
+        "npm-run-all": "^4.1.5",
+        "rimraf": "^3.0.2",
+        "source-map-explorer": "^2.5.2"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "license": "MIT"
+}
