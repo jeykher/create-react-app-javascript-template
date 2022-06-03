@@ -1,4 +1,8 @@
-# Project Name
+# Create React App JavaScript Template
+
+## Description
+
+This project contain create react app template using JavaScript
 
 ## Bitbucket repository
 
