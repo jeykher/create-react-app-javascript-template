@@ -39,9 +39,9 @@ ENV PUBLIC_URL=
 
 RUN yarn build
 
-# STAGE 3 DEPLY PROCESS
+# STAGE 3 DEPLOY PROCESS
 
-FROM nginx:1.21.6-alpine as deployer
+FROM nginx:1.21.6-alpine AS deployer
 
 ENV PUBLIC_URL=
 
@@ -66,7 +66,7 @@ COPY --from=builder --chown=nginx:nginx /home/node/app/build /usr/share/nginx/ht
 
 RUN touch /var/run/nginx.pid && chown nginx:nginx /var/run/nginx.pid  && chown -R nginx:nginx /var/cache/nginx/
 
-EXPOSE 9006
+EXPOSE 3000
 
 USER nginx
 

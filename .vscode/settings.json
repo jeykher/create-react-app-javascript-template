@@ -31,7 +31,9 @@
 		"Setney": "admin",
 		"Personal": "core",
 		"Emoticons": "svg",
-		"storybook-static": "storybook"
+		"storybook-static": "storybook",
+		"Vite": "sublime",
+		"NextJS": "next"
 	},
     "material-icon-theme.files.associations": {
 		"Vscode":  "vscode",
@@ -66,7 +68,10 @@
 		"package.md": "parcel",
 		"Snippets.md": "silverstripe",
 		"Emoticons.md": "moonscript",
-		"Summary.md": "contributing"
+		"Summary.md": "contributing",
+		"Elearning.md": "database",
+		"Vite.md": "vite",
+		"NextJS.md": "next"
 	},
     // Bracket pair coloraized configuration
     "brackets-pair-colorized-2.colors": [
@@ -88,23 +93,23 @@
     "prettier.arrowParens": "always",
     // Peacok Configuration
     "workbench.colorCustomizations": {
-		"activityBar.activeBackground": "#93e6fc",
-		"activityBar.activeBorder": "#fa45d4",
-		"activityBar.background": "#93e6fc",
+		"activityBar.activeBackground": "#c2e2ae",
+		"activityBar.activeBorder": "#7295cd",
+		"activityBar.background": "#c2e2ae",
 		"activityBar.foreground": "#15202b",
 		"activityBar.inactiveForeground": "#15202b99",
-		"activityBarBadge.background": "#fa45d4",
+		"activityBarBadge.background": "#7295cd",
 		"activityBarBadge.foreground": "#15202b",
-		"sash.hoverBorder": "#93e6fc",
-		"statusBar.background": "#61dafb",
+		"sash.hoverBorder": "#c2e2ae",
+		"statusBar.background": "#a6d588",
 		"statusBar.foreground": "#15202b",
-		"statusBarItem.hoverBackground": "#2fcefa",
-		"statusBarItem.remoteBackground": "#61dafb",
+		"statusBarItem.hoverBackground": "#8ac862",
+		"statusBarItem.remoteBackground": "#a6d588",
 		"statusBarItem.remoteForeground": "#15202b",
-		"titleBar.activeBackground": "#61dafb",
+		"titleBar.activeBackground": "#a6d588",
 		"titleBar.activeForeground": "#15202b",
-		"titleBar.inactiveBackground": "#61dafb99",
+		"titleBar.inactiveBackground": "#a6d58899",
 		"titleBar.inactiveForeground": "#15202b99"
 	},
-    "peacock.color": "#61dafb"
+    "peacock.color": "#a6d588"
 }
